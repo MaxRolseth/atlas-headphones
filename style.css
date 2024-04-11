@@ -149,3 +149,43 @@ header .navbar {
   font-weight: 400;
   line-height: 26px;
 }
+
+/* What We Do */
+
+#whatwedo {
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#whatwedo .what-text {
+  width: 637px;
+  margin: auto;
+}
+
+.what-text h2 {
+  font-size: 32px;
+  line-height: 37.5px;
+  text-align: center;
+}
+
+.what-text p {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.what-icons {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  font-size: 6em;
+  color: #FF6565;
+}
