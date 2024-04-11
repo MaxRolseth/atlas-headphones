@@ -1,0 +1,151 @@
+/* Fonts used */
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('fonts/SourceSansPro-Regular.otf') format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url('fonts/SourceSansPro-Bold.otf') format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Spincycle OT';
+  src: url('fonts/spincycle_ot.otf') format('opentype');
+  font-style: normal;
+}
+
+/* Root vars */
+:root {
+  --font-family-1: "Source Sans Pro", sans-serif;
+}
+/*reset formatting*/
+
+p,
+ul,
+h1,
+h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+/*reusable vars, will need to redo this based on media query stuff*/
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white; 
+}
+a:hover,
+a:active
+ {
+  text-decoration: none;
+  color: #FF6565; 
+}
+
+button:hover,
+button:active
+ {
+  opacity: 0.9;
+}
+
+
+/*Body*/
+
+body {
+  font-family: var(--font-family-1);
+}
+
+/* Header */
+header {
+  
+  background-image: url("images/headphones_hero_1.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size:cover;
+  max-width: 100%;
+  height: 800px;
+  background-color: gray;
+  color: white;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  padding-top:28px;
+}
+
+.navbar .logo {
+
+}
+
+.navbar nav {
+
+}
+
+.navbar nav ul {
+
+}
+
+
+.navbar nav ul li {
+  display: inline;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  padding-left: 28px;
+}
+
+.navbar nav ul a {
+
+}
+
+
+
+
+.banner {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.banner .banner-text {
+  width: 637px;
+  margin-top: 300px;
+}
+
+.banner h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.banner h2 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.banner button {
+  margin-top: 35px;
+  border: none;
+  background: none;
+}
+
+
+
+.banner p {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
