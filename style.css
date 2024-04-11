@@ -24,7 +24,8 @@
 p,
 ul,
 h1,
-h2 {
+h2,
+h3 {
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
@@ -189,3 +190,94 @@ header .navbar {
   font-size: 6em;
   color: #FF6565;
 }
+
+/* Results */
+#results {
+ 
+  background-image: url("images/headphones_hero_2.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size:cover;
+  max-width: 100%;
+  height: 650px;
+  background-color: gray;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+#results .results-text {
+  margin-top: 100px;
+  text-align: center;
+  width: 637px;
+  margin: auto;
+
+}
+
+.results-text h2 {
+  font-size: 32px;
+  line-height: 37.5px;
+  
+}
+
+.results-text p {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  
+}
+
+.pentagon {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;  /*this shouldnt be necessary, but adding the div around the above text keeps overriding the container width */
+  
+}
+
+.pentagon .pent-text {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  
+}
+
+.pentagon img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.pentagon .pent-text .overlay {
+  position: absolute;
+  width: 120px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pentagon .pent-text h3 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-top: .75em;
+  padding-bottom: .25em;
+
+}
+
+.pentagon .pent-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: .75em;
+  padding-top: .25em;
+}
+
