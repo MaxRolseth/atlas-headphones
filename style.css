@@ -50,6 +50,12 @@ a:active
   color: #FF6565; 
 }
 
+button {
+  margin-top: 35px;
+  border: none;
+  background: none;
+}
+
 button:hover,
 button:active
  {
@@ -136,11 +142,7 @@ header .navbar {
   font-size: 16px;
 }
 
-.banner button {
-  margin-top: 35px;
-  border: none;
-  background: none;
-}
+
 
 
 
@@ -279,5 +281,33 @@ header .navbar {
   line-height: 26px;
   padding-bottom: .75em;
   padding-top: .25em;
+}
+
+/* Contact */
+
+#contact {
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#contact .form {
+  height: 373px;
+  margin-bottom: 100px;
+}
+
+.form h2 {
+  font-size: 32px;
+  line-height: 37.5px;
+  margin-bottom: 40px;
+}
+
+form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
 }
 
