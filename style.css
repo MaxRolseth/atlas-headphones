@@ -38,6 +38,10 @@ h3 {
   padding-right: 15px;
 }
 
+.fade {
+  opacity: 50%;
+}
+
 a:link,
 a:visited {
   text-decoration: none;
@@ -311,3 +315,39 @@ form {
 
 }
 
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  height: 249px;
+  padding-top: 50px;
+
+  
+
+}
+
+footer .navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  margin-top:28px;
+}
+
+footer .navbar nav ul li {
+  display: inline;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 15px;
+  padding-left: 28px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 100px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
